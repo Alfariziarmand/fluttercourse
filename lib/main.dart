@@ -15,7 +15,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.grey[500],
       ),
       body: Center(
-        child: Image.asset('assets/city.jfif')
+        child: RaisedButton(
+          onPressed: (){
+            print(1+2);
+          },
+          child: Text('Click Me'),
+          color: Colors.lightBlue[800],
+        )
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
