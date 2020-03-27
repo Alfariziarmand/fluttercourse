@@ -1,7 +1,7 @@
 
 class Quote {
   String kutipan;
-  int tahun;
+  String tahun;
 
   Quote({this.kutipan, this.tahun});
 }
